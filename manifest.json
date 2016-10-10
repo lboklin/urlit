@@ -1,0 +1,25 @@
+{
+
+  "description": "Puts the (relevant parts of the) URL of the current webpage in the titlebar.",
+  "manifest_version": 2,
+  "name": "URL in Titlebar",
+  "version": "1.1",
+  "icons": {
+    "48": "icons/urlit.svg"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "urlit@sudoreboot.org",
+      "strict_min_version": "45.0"
+    }
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["urlit.js"]
+    }
+  ]
+
+}
