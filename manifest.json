@@ -3,7 +3,7 @@
   "description": "Puts the (relevant parts of the) URL of the current webpage in the titlebar.",
   "manifest_version": 2,
   "name": "URL in Titlebar",
-  "version": "1.1",
+  "version": "1.1.1",
   "icons": {
     "48": "icons/urlit.svg"
   },
